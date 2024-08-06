@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="" />Gayan Anuradha Dissanayaka
+    <meta name="description" content="Practical 1" />
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.flinders.edu.au/">Home</a></li>
+                <li><a href="https://www.flinders.edu.au/">About</a></li>
+                <li><a href="https://www.flinders.edu.au/">Topics</a></li>
+                <li><a href="https://www.flinders.edu.au/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <form action="/submit" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone:</label>
+                        <input type="number" id="phone" name="phone" required>
+                    </li>
+                    <li>
+                        <label for="message">Message:</label>
+                        <textarea id="message" placeholder="required" name="message" rows="5" required></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit">
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>    
+</body>
+</html>
